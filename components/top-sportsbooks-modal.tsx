@@ -12,7 +12,7 @@ export default function TopSportsbooksModal() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(true)
-    }, 700)
+    }, 8000)
 
     return () => clearTimeout(timer)
   }, [])

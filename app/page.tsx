@@ -2,7 +2,6 @@
 import { sportsbooks } from "@/data/sportsbooks"
 import SportsbookCard from "@/components/sportsbook-card"
 import TopSportsbooksModal from "@/components/top-sportsbooks-modal"
-import Footer from "@/components/footer"
 import { CheckCircle, Shield, Award, Users } from "lucide-react"
 
 export default function HomePage() {

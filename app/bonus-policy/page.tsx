@@ -1,4 +1,4 @@
-import Footer from "@/components/footer"
+
 import Link from "next/link"
 
 export default function BonusPolicy() {
@@ -256,7 +256,6 @@ export default function BonusPolicy() {
           </section>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

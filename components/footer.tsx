@@ -73,17 +73,17 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.itechlabs.com/"
+                href="https://www.gambleaware.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
                 <Image
-                  src="/itech.webp"
-                  alt="iTech Labs"
+                  src="/gamble-aware-logo.svg"
+                  alt="GambleAware"
                   width={120}
                   height={40}
-                  className=" rounded p-1 md:w-[120px] md:h-[60px]"
+                  className="rounded p-1 md:w-[120px] md:h-[60px]"
                 />
               </a>
 
@@ -103,17 +103,46 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.skillonnet.com/"
+                href="https://connexontario.ca/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity"
               >
                 <Image
-                  src="/skillon.webp"
-                  alt="SkillOnNet"
+                  src="/ConnexOntario_Logo_Transparent.png"
+                  alt="ConnexOntario"
                   width={120}
                   height={40}
-                  className="bg-white rounded p-1 md:w-[120px] md:h-[60px]"
+                  className="rounded p-1 md:w-[120px] md:h-[60px]"
+                />
+              </a>
+              <a
+                href="https://www.gpwa.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <Image
+                  src="/approved_portal.gif"
+                  alt="GPWA"
+                  width={120}
+                  height={40}
+                  className="rounded p-1 md:w-[120px] md:h-[60px]"
+                />
+              </a>
+
+              <a
+                href="https://ecogra.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                <Image
+                  src="/ecogra_newlogo-01.png"
+                  alt="Ecogra"
+                  width={120}
+                  height={40}
+                  className="rounded p-1 md:w-[120px] md:h-[60px]"
                 />
               </a>
 

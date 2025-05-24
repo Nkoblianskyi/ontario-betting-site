@@ -1,4 +1,4 @@
-import Footer from "@/components/footer"
+
 import Link from "next/link"
 
 export default function TermsOfService() {
@@ -181,7 +181,6 @@ export default function TermsOfService() {
           </section>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

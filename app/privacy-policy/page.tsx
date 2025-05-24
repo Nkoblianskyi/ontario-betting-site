@@ -1,4 +1,4 @@
-import Footer from "@/components/footer"
+
 import Link from "next/link"
 
 export default function PrivacyPolicy() {
@@ -177,7 +177,6 @@ export default function PrivacyPolicy() {
           </section>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
