@@ -172,7 +172,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-6 md:pt-8">
           <div className="text-xs md:text-sm text-gray-300 space-y-3 md:space-y-4">
             <p className="text-center md:text-left">
-              OntarioBettingSite.com operates under Ontario law and follows all 
+              OntarioBettingSite.com operates under Ontario law and follows all {" "}
               <a
                 href="https://www.agco.ca/lottery-and-gaming/internet-gaming"
                 target="_blank"
@@ -180,7 +180,7 @@ export default function Footer() {
                 className="text-blue-400 hover:text-blue-300 underline"
               >
                 AGCO Internet Gaming license
-              </a>{" "} and
+              </a>{" "} and{" "}
               <a
                 href="https://igamingontario.ca/"
                 target="_blank"
