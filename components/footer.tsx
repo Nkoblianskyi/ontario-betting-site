@@ -172,9 +172,15 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-6 md:pt-8">
           <div className="text-xs md:text-sm text-gray-300 space-y-3 md:space-y-4">
             <p className="text-center md:text-left">
-              This site's operations are regulated by the Alcohol Gaming Commission of Ontario (AGCO) and is operated by
-              SkillOnNet Ltd, Office 1/5297 Level G, Quantum House, 75, Abate Rigord Street, Ta' Xbiex, XBX 1120, Malta,
-              under an AGCO Internet Gaming license and pursuant to an agreement with{" "}
+              OntarioBettingSite.com operates under Ontario law and follows all
+              <a
+                href="https://www.agco.ca/lottery-and-gaming/internet-gaming"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 underline"
+              >
+                AGCO Internet Gaming license
+              </a>{" "} and
               <a
                 href="https://igamingontario.ca/"
                 target="_blank"
@@ -182,11 +188,7 @@ export default function Footer() {
                 className="text-primary-red hover:underline"
               >
                 iGaming Ontario
-              </a>
-              .
-            </p>
-            <p className="text-center md:text-left">
-              OntarioBettingSite.com operates under Ontario law and follows all AGCO and iGaming Ontario regulations.
+              </a> regulations.
             </p>
             <p className="text-blue-400 text-center md:text-left font-medium">
               Gambling can be addictive, please play responsibly.

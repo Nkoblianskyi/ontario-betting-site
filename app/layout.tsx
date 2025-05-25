@@ -5,38 +5,38 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Top Ontario Betting Site - Licensed Online Casinos & Sportsbooks",
+  title: "Top Ontario Betting Site - Licensed Online Sportsbooks & Betting",
   description:
-    "Discover Ontario's top-rated licensed online casinos and sportsbooks. Expert reviews, exclusive bonuses, and safe gaming with AGCO-licensed operators. 19+ only.",
+    "Discover Ontario's top-rated licensed online sportsbooks and betting sites. Expert reviews, exclusive bonuses, and safe betting with AGCO-licensed operators. 19+ only.",
   keywords:
-    "Ontario online casino, Ontario sportsbook, AGCO licensed, iGaming Ontario, online betting Ontario, casino bonuses Ontario",
+    "Ontario online betting, Ontario sportsbook, AGCO licensed, iGaming Ontario, sports betting Ontario, betting bonuses Ontario, online sportsbook",
   authors: [{ name: "Ontario Betting Site" }],
   creator: "Ontario Betting Site",
   publisher: "Ontario Betting Site",
   robots: "index, follow",
   openGraph: {
-    title: "Top Ontario Betting Site - Licensed Online Casinos & Sportsbooks",
+    title: "Top Ontario Betting Site - Licensed Online Sportsbooks & Betting",
     description:
-      "Discover Ontario's top-rated licensed online casinos and sportsbooks. Expert reviews, exclusive bonuses, and safe gaming with AGCO-licensed operators.",
+      "Discover Ontario's top-rated licensed online sportsbooks and betting sites. Expert reviews, exclusive bonuses, and safe betting with AGCO-licensed operators.",
     url: "https://ontariobettingsite.com",
     siteName: "Ontario Betting Site",
     locale: "en_CA",
     type: "website",
     images: [
       {
-        url: "/bg.jpg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Top Ontario Betting Site - Licensed Online Casinos",
+        alt: "Top Ontario Betting Site - Licensed Online Sportsbooks",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Top Ontario Betting Site - Licensed Online Casinos & Sportsbooks",
+    title: "Top Ontario Betting Site - Licensed Online Sportsbooks & Betting",
     description:
-      "Discover Ontario's top-rated licensed online casinos and sportsbooks. Expert reviews, exclusive bonuses, and safe gaming.",
-    images: ["/bg.jpg"],
+      "Discover Ontario's top-rated licensed online sportsbooks and betting sites. Expert reviews, exclusive bonuses, and safe betting.",
+    images: ["/og-image.jpg"],
   },
   viewport: "width=device-width, initial-scale=1",
   themeColor: "#e60023",

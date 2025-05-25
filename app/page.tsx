@@ -2,6 +2,7 @@
 import { sportsbooks } from "@/data/sportsbooks"
 import SportsbookCard from "@/components/sportsbook-card"
 import TopSportsbooksModal from "@/components/top-sportsbooks-modal"
+import Footer from "@/components/footer"
 import { CheckCircle, Shield, Award, Users } from "lucide-react"
 
 export default function HomePage() {
@@ -40,8 +41,9 @@ export default function HomePage() {
 
             <div className="mb-4 md:mb-6">
               <p className="text-sm md:text-lg mb-2 md:mb-4 px-2">
-                Explore Ontario's Top-Rated Online Casinos: Discover a world of excitement with safe and secure play.
-                Our experts have handpicked the best, ensuring you have a seamless and enjoyable gaming experience.
+                Explore Ontario's Top-Rated Online Betting Sites: Discover a world of excitement with safe and secure
+                betting. Our experts have handpicked the best, ensuring you have a seamless and enjoyable betting
+                experience.
               </p>
             </div>
 
@@ -243,60 +245,59 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto px-4">
             <div className="bg-white/30 backdrop-blur-sm rounded-2xl p-4 md:p-8 mx-2 md:mx-4">
               <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4 md:mb-8 text-center">
-                How to Find the Best Online Casino in ON
+                How to Find the Best Online Betting Site in ON
               </h2>
 
               <div className="mb-8 md:mb-12">
                 <p className="text-sm md:text-lg text-black mb-4 md:mb-6">
-                  Navigating Ontario's online gambling landscape requires understanding the essential elements that
-                  define a quality gaming experience. From identifying reputable operators to evaluating game
-                  selections, payment systems, and customer service standards, every detail matters. Our comprehensive
+                  Navigating Ontario's online betting landscape requires understanding the essential elements that
+                  define a quality betting experience. From identifying reputable operators to evaluating betting
+                  markets, payment systems, and customer service standards, every detail matters. Our comprehensive
                   analysis helps you make informed decisions about where to invest your time and money in Ontario's
-                  regulated online casino market.
+                  regulated online betting market.
                 </p>
               </div>
 
               <div className="mb-8 md:mb-12">
                 <h3 className="text-lg md:text-2xl font-semibold text-black mb-4 md:mb-6">
-                  Popular Games in Ontario Online Casinos
+                  Popular Betting Markets in Ontario Online Sportsbooks
                 </h3>
                 <p className="text-black mb-4 md:mb-6 text-sm md:text-base">
-                  Selecting the right casino starts with ensuring they offer the entertainment you're seeking. Ontario's
-                  licensed operators typically provide comprehensive game libraries featuring these popular categories:
+                  Selecting the right sportsbook starts with ensuring they offer the betting markets you're seeking.
+                  Ontario's licensed operators typically provide comprehensive betting options featuring these popular
+                  categories:
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                   <div className="bg-white/30 backdrop-blur-sm p-4 md:p-6 rounded-lg hover:shadow-lg transition-shadow duration-500">
-                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Slot Machines</h4>
+                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Sports Betting</h4>
                     <p className="text-black text-sm md:text-base">
-                      Digital slot games dominate Ontario's online casino floors, featuring thousands of unique titles,
-                      massive progressive jackpots, and diverse themes ranging from ancient civilizations to modern pop
-                      culture.
+                      Comprehensive sports coverage including NHL, NBA, NFL, MLB, soccer, tennis, and more. Live
+                      betting, pre-game markets, and competitive odds across all major sports and leagues.
                     </p>
                   </div>
 
                   <div className="bg-white/30 backdrop-blur-sm p-4 md:p-6 rounded-lg hover:shadow-lg transition-shadow duration-500">
-                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Table Games</h4>
+                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Live Betting</h4>
                     <p className="text-black text-sm md:text-base">
-                      Classic casino favorites like blackjack and roulette offer strategic gameplay with multiple
-                      variants. European, American, and French roulette each provide different odds and rules to suit
-                      various playing styles.
+                      Real-time betting opportunities with constantly updated odds during live games. Experience the
+                      excitement of in-play betting with instant updates and dynamic market options.
                     </p>
                   </div>
 
                   <div className="bg-white/30 backdrop-blur-sm p-4 md:p-6 rounded-lg hover:shadow-lg transition-shadow duration-500">
-                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Live Dealer Games</h4>
+                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Prop Bets</h4>
                     <p className="text-black text-sm md:text-base">
-                      Experience authentic casino atmosphere through high-definition streams featuring professional
-                      dealers, real-time interaction, and genuine casino environments from the comfort of your home.
+                      Unique betting opportunities beyond traditional game outcomes. Player props, team props, and
+                      special event betting markets provide diverse wagering options for every preference.
                     </p>
                   </div>
 
                   <div className="bg-white/30 backdrop-blur-sm p-4 md:p-6 rounded-lg hover:shadow-lg transition-shadow duration-500">
-                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Specialty Games</h4>
+                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2 md:mb-3">Futures & Outrights</h4>
                     <p className="text-black text-sm md:text-base">
-                      Unique gaming options including lottery-style games, scratch cards, and innovative game show
-                      formats provide alternative entertainment beyond traditional casino offerings.
+                      Long-term betting markets including championship winners, season totals, and award betting. Plan
+                      ahead with futures betting on major tournaments and league outcomes.
                     </p>
                   </div>
                 </div>
@@ -304,7 +305,7 @@ export default function HomePage() {
 
               <div className="mb-8 md:mb-12">
                 <h3 className="text-lg md:text-2xl font-semibold text-black mb-4 md:mb-6">
-                  Essential Factors for Choosing Ontario Casinos
+                  Essential Factors for Choosing Ontario Sportsbooks
                 </h3>
 
                 <div className="space-y-4 md:space-y-6">
@@ -327,19 +328,19 @@ export default function HomePage() {
                   </div>
 
                   <div className="border-l-4 border-primary-red pl-4 md:pl-6 hover:border-gold transition-colors duration-500">
-                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2">Game Library Depth</h4>
+                    <h4 className="text-lg md:text-xl font-semibold text-black mb-2">Betting Market Variety</h4>
                     <p className="text-black text-sm md:text-base">
-                      Comprehensive game collections from leading software providers ensure variety and quality. Whether
-                      you prefer specific game types or want to explore new options, extensive libraries provide better
-                      long-term entertainment value.
+                      Comprehensive betting options from leading sportsbook providers ensure variety and competitive
+                      odds. Whether you prefer specific sports or want to explore new betting markets, extensive options
+                      provide better long-term betting value.
                     </p>
                   </div>
 
                   <div className="border-l-4 border-primary-red pl-4 md:pl-6 hover:border-gold transition-colors duration-500">
                     <h4 className="text-lg md:text-xl font-semibold text-black mb-2">Platform Performance</h4>
                     <p className="text-black text-sm md:text-base">
-                      Smooth, responsive interfaces enhance your gaming experience across desktop and mobile devices.
-                      Fast loading times, intuitive navigation, and attractive design contribute to enjoyable gameplay
+                      Smooth, responsive interfaces enhance your betting experience across desktop and mobile devices.
+                      Fast loading times, intuitive navigation, and attractive design contribute to enjoyable betting
                       sessions.
                     </p>
                   </div>
@@ -351,33 +352,35 @@ export default function HomePage() {
                   AGCO Regulation & Player Protection
                 </h3>
                 <p className="text-black mb-3 md:mb-4 text-sm md:text-base">
-                  The Alcohol and Gaming Commission of Ontario (AGCO) oversees all licensed online casino operations,
-                  ensuring operators meet strict standards for fairness, security, and responsible gaming practices.
+                  The Alcohol and Gaming Commission of Ontario (AGCO) oversees all licensed online sportsbook
+                  operations, ensuring operators meet strict standards for fairness, security, and responsible betting
+                  practices.
                 </p>
                 <p className="text-black text-sm md:text-base">
-                  This regulatory framework protects players through mandatory security protocols, fair gaming audits,
-                  and responsible gambling tools. Always verify AGCO licensing before registering with any online casino
-                  in Ontario.
+                  This regulatory framework protects players through mandatory security protocols, fair betting audits,
+                  and responsible gambling tools. Always verify AGCO licensing before registering with any online
+                  sportsbook in Ontario.
                 </p>
               </div>
 
               <div className="text-center">
                 <h3 className="text-lg md:text-2xl font-semibold text-black mb-3 md:mb-4">
-                  Begin Your Ontario Casino Journey
+                  Begin Your Ontario Betting Journey
                 </h3>
                 <p className="text-sm md:text-lg text-black mb-4 md:mb-6">
-                  Armed with this knowledge, you're ready to explore Ontario's regulated online casino market. Every
-                  operator listed on our site maintains AGCO compliance and offers unique combinations of games, payment
-                  options, and user experiences tailored to different player preferences.
+                  Armed with this knowledge, you're ready to explore Ontario's regulated online betting market. Every
+                  operator listed on our site maintains AGCO compliance and offers unique combinations of betting
+                  markets, payment options, and user experiences tailored to different betting preferences.
                 </p>
                 <p className="text-black text-sm md:text-base">
-                  Review our detailed assessments to find the casino that best matches your gaming style and
+                  Review our detailed assessments to find the sportsbook that best matches your betting style and
                   requirements.
                 </p>
               </div>
             </div>
           </div>
         </section>
+
       </div>
     </div>
   )
